@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, Image, ScrollView, StyleSheet } from "react-native";
-import sare from "../assets/sare.jpg"
-import gnome from "../assets/Gnome_model.webp"
-import style from "../style.js"
+import sare from "../../assets/sare.jpg"
+import gnome from "../../assets/Gnome_model.webp"
+import style from "../../style.js"
 
 export default () => <>
     {/* <ScrollView style={myStyle.lacreatura}> */}
