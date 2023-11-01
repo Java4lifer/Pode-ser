@@ -9,6 +9,7 @@ export default pros => {
     }
     return(
         <Button title="exer" 
-        onPress={function(){const n = gerarNum(pros.min, pros.max)}}></Button>
+        onPress={function(){const n = gerarNum(pros.min, pros.max) 
+        pros.function(n, "O valor é:")}}></Button>
         )
 }
